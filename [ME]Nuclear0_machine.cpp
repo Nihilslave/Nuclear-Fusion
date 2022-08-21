@@ -1021,7 +1021,7 @@ void C3change()
 
     time = NowTime(20);
     if (time > 0 && realWave == 20 && jalaFlag == -1 && iceFlag == -1) {
-        if (potPadder.getStatus() == potPadder.RUNNING) {
+        if (potPadder.getStatus() == RUNNING) {
             SetNowTime();
             potPadder.pause();
         }
@@ -1233,7 +1233,7 @@ void C3change()
 
     time = NowTime(9);
     if (time > 0 && realWave == 9 && jalaFlag == -1 && iceFlag == -1) {
-        if (potPadder.getStatus() == potPadder.RUNNING) {
+        if (potPadder.getStatus() == RUNNING) {
             SetNowTime();
             potPadder.pause();
         }
